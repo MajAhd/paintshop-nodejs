@@ -1,0 +1,25 @@
+{
+  "name": "paintshop-nodejs",
+  "version": "1.0.0",
+  "description": "You own a paint factory. There are N different colors you can mix, and each color can be prepared \"matte\" or \"glossy\". So, you can make 2N different types of paint. Each of your customers has a set of paint types they like, and they will be satisfied if you have at least one of those types prepared. At most one of the types a customer likes will be a \"matte\". You want to make N batches of paint, so that: There is exactly one batch for each color of paint, and it is either matte or glossy. For each customer, you make at least one paint type that they like. The minimum possible number of batches are matte (since matte is more expensive to make). Find whether it is possible to satisfy all your customers given these constraints, and if it is, what paint types you should make. If it is possible to satisfy all your customers, there will be only one answer which minimizes the number of matte batches.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MajAhd/paintshop-nodejs.git"
+  },
+  "author": "Majid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MajAhd/paintshop-nodejs/issues"
+  },
+  "homepage": "https://github.com/MajAhd/paintshop-nodejs#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "lodash": "^4.17.15",
+    "path": "^0.12.7"
+  }
+}

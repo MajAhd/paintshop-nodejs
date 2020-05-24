@@ -60,8 +60,9 @@ Input
 - 1 1 1
 
 ## Output
-Case #1: 1 0 0 0 0
-Case #2: IMPOSSIBLE
+### Case #1: 1 0 0 0 0
+### Case #2: IMPOSSIBLE
+
 In the first case, you must make color #1 matte, to satisfy the first customer. Every other paint type
 can be glossy. The second customer is satisfied by getting color #2 glossy, and the third customer
 is satisfied by getting color #5 glossy.
