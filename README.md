@@ -1,4 +1,9 @@
+## Script
+
+- npm run start
+
 ## Problem
+
 You own a paint factory. There are N different colors you can mix, and each color can be prepared
 "matte" or "glossy". So, you can make 2N different types of paint.
 Each of your customers has a set of paint types they like, and they will be satisfied if you have at
@@ -28,6 +33,7 @@ Each customer will like at most one matte color. (At most one pair for each cust
 All of these numbers are separated by single spaces.
 
 ## Output
+
 C lines, one for each test case in the order they occur in the input file, each containing the string
 "Case #X: " where X is the number of the test case, starting from 1, followed by:
 The string "IMPOSSIBLE", if the customers' preferences cannot be satisfied; OR
@@ -35,6 +41,7 @@ N space-separated integers, one for each color from 1 to N, which are 0 if the c
 should be prepared glossy, and 1 if it should be matte.
 
 ## Limits
+
 Small dataset
 C = 100
 1 <= N <= 10
@@ -45,9 +52,10 @@ C = 5
 1 <= M <= 2000
 The sum of all the T values for the customers in a test case will not exceed 3000.
 
-
 ## Sample
+
 Input
+
 - 2
 - 5
 - 3
@@ -60,7 +68,9 @@ Input
 - 1 1 1
 
 ## Output
+
 ### Case #1: 1 0 0 0 0
+
 ### Case #2: IMPOSSIBLE
 
 In the first case, you must make color #1 matte, to satisfy the first customer. Every other paint type

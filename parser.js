@@ -20,15 +20,10 @@ const parser = (file) => {
     indexPointer++; // move the pointer to next
     let i;
     for (i = 0; i < customerCount; i++) {
-      // transform string customer into an array of strings
+      //  string customer convert to array
       const customerRawArray = array[i + indexPointer].split(" ");
-
-      // deconstruct orderCount and orders from main array
       const [orderCount, ...orders] = customerRawArray;
       const customer = [];
-
-      // Each order take 2 positions in the array
-      // Loop every 2 positions until orderCount * 2
       const orderLimit = parseInt(orderCount, 10) * 2;
       for (let j = 0; j < orderLimit; j += 2) {
         customer.push({
