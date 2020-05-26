@@ -1,5 +1,5 @@
 ## Script
-
+- npm install
 - npm run start
 
 ## Problem
